@@ -1,7 +1,5 @@
 # ASITA 2026
 
-Talk/workshop at for 2026 ASITA conference.
-
 ## Installation
 
 1.  Download and install [R](https://cloud.r-project.org/) (should be >= 4.5)
@@ -22,6 +20,9 @@ if (!requireNamespace("pak", quietly = TRUE)) {
   install.packages("pak")
 }
 pak::pak("isoverse/isoreader2")
+
+# install isoexplorer
+pak::pak("isoverse/isoexplorer")
 
 # check/install isoextract
 isoreader2::ir_check_isoextract()
